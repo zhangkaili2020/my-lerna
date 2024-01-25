@@ -1,11 +1,5 @@
 'use strict';
 
-module.exports = uiCommon;
-
-function uiCommon() {
+export function uiCommon() {
   return 'Hello from uiCommon';
-}
-
-export {
-  uiCommon
 }

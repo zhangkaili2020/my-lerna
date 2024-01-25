@@ -1,9 +1,9 @@
 import logo from './logo.svg';
-import uiCommon from 'ui-common'
+import { uiCommon } from 'ui-common'
 import './App.css';
 
 function App() {
-  console.log('ui--', uiCommon(), )
+  console.log('ui--', uiCommon, )
   return (
     <div className="App">
       <header className="App-header">
